@@ -1,4 +1,9 @@
-# zachwieand.github.io
-Personal Website
+#Personal Website
 
-add in a better description later
+- Work Experience
+- Personal Projects
+- Course Work
+- Resume and Transcript
+- Contact Information
+
+
