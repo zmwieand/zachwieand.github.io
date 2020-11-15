@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: 'Goldman';
+  font-size: 72px;
+}
+
+@media only screen and (max-width: 850px) {
+  h1 {
+      font-size: 48px;
+  }
+}
+
+p {
+  font-family: 'Abel';
+}

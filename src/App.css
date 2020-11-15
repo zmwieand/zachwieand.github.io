@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +35,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.description {
+  max-width: 60%;
+}
+
+@media only screen and (max-width: 850px) {
+  .description {
+      max-width: 90%;
   }
 }
