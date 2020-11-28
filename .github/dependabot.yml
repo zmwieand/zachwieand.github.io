@@ -5,10 +5,19 @@ updates:
   schedule:
     interval: weekly
     time: "10:00"
-  open-pull-requests-limit: 10
+  open-pull-requests-limit: 5
+  labels:
+    - javascript
+    - dependencies
+    - automerge
+
 - package-ecosystem: docker
   directory: "/"
   schedule:
     interval: weekly
     time: "10:00"
-  open-pull-requests-limit: 10
+  open-pull-requests-limit: 1
+  labels:
+    - docker
+    - dependencies
+    - automerge
