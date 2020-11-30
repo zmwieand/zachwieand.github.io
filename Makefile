@@ -37,10 +37,3 @@ bundle:
 		-v $(shell pwd):/app \
 		-it $(CONTAINER_NAME):$(TAG) \
 		npm run build
-
-.PHONY: deploy
-deploy:
-	docker run \
-		-v $(shell pwd):/app \
-		-it $(CONTAINER_NAME):$(TAG) \
-		npm run deploy
